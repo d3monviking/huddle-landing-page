@@ -1,0 +1,85 @@
+body {
+    background: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: contain;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+header {
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+header > img {
+    width: 200px;
+}
+
+.mockups-info {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-left: 100px;
+    padding-top: 55px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+    padding-right: 200px;
+    padding-top: 55px;
+}
+
+b {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    padding-top: 0.5em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+button{
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 30px;
+    color: hsl(257, 40%, 49%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    box-shadow: 0.4px 0.4px 0.4px 0.4px black;
+}
+
+button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+    margin-top: -50px;
+    padding-right: 15%;
+    padding-left: 75%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 2em;
+    color: white;
+}
+
+a:hover{
+    color:  hsl(300, 69%, 71%);
+}
